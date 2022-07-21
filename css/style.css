@@ -1,0 +1,126 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body {
+background-color: rgb(89, 207, 89);
+}
+
+.container {
+  max-width: 1250px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
+}
+
+.ob-havo {
+margin-top: 35px;
+text-align: center;
+font-weight: bolder;
+font-size: 45px;
+}
+
+.js-form {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.js-input {
+  font-weight: bolder;
+  font-size: 15px;
+  padding: 7px 5px;
+  border: none;
+  border-radius: 10px;
+}
+
+.btn {
+  background-color: black;
+  margin-left: 15px;
+  padding: 8px 12px;
+  border-radius: 10px;
+  border: none;
+  font-weight: bolder;
+  font-size: 15px;
+color: white;
+}
+
+.btn:hover {
+  background-color: white;
+  color: black;
+}
+
+ .time {
+font-size: 30px;
+} 
+
+.time__box {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.davlat {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  font-size: 20px;
+}
+
+.kun {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  gap: 130px;
+  font-size: 20px;
+
+}
+
+.havo {
+  margin-top: 20px;
+  display: flex;
+  gap: 150px;
+  font-size: 20px;
+
+}
+
+.js-list {
+  margin-top: 40px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ text-align: center;
+}
+
+.title {
+  font-size: 35px ;
+  margin-right: 200px;
+}
+
+.davlatlar {
+  font-weight: bolder;
+  font-size: 40px;
+  color: red;
+}
+
+.harorat {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 60px;
+}
+
+
+
+
+
+
+
+
+
