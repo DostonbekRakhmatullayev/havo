@@ -52,27 +52,27 @@ function theAir(arr, node) {
     newStrong1.setAttribute("class", "davlatlar")
     newStrong.setAttribute("class", "harorat")
 
-    // if (200 < e.weather[0].id && e.weather[0].id < 299) {
-    //   newText1.textContent = "Moma qaldiroq"
-    // }
-    // if (299 < e.weather[0].id && e.weather[0].id < 399) {
-    //   newText1.textContent = "Mayda yomg'ir"
-    // }
-    // if (399 < e.weather[0].id && e.weather[0].id < 599) {
-    //   newText1.textContent = "Yomg'ir"
-    // }
-    // if (599 < e.weather[0].id && e.weather[0].id < 699) {
-    //   newText1.textContent = "Qor"
-    // }
-    // if (699 < e.weather[0].id && e.weather[0].id < 799) {
-    //   newText1.textContent = "Tuman"
-    // }
-    // if (e.weather[0].id && e.weather[0].id == 800) {
-    //   newText1.textContent = "Ochiq osmon"
-    // }
-    // if (800 < e.weather[0].id && e.weather[0].id < 805) {
-    //   newText1.textContent = "Bulutli xovo"
-    // }
+    if (200 < e.weather[0].id && e.weather[0].id < 299) {
+      newText1.textContent = "Moma qaldiroq"
+    }
+    if (299 < e.weather[0].id && e.weather[0].id < 399) {
+      newText1.textContent = "Mayda yomg'ir"
+    }
+    if (399 < e.weather[0].id && e.weather[0].id < 599) {
+      newText1.textContent = "Yomg'ir"
+    }
+    if (599 < e.weather[0].id && e.weather[0].id < 699) {
+      newText1.textContent = "Qor"
+    }
+    if (699 < e.weather[0].id && e.weather[0].id < 799) {
+      newText1.textContent = "Tuman"
+    }
+    if (e.weather[0].id && e.weather[0].id == 800) {
+      newText1.textContent = "Ochiq osmon"
+    }
+    if (800 < e.weather[0].id && e.weather[0].id < 805) {
+      newText1.textContent = "Bulutli xovo"
+    }
 
     newDavlat.appendChild(newTetle)
     newDavlat.appendChild(newStrong1)     
