@@ -18,6 +18,7 @@ function getDate(format,) {
 }
 
 console.log(getDate(1658402147));
+
 function theAir(arr, node) {
   [arr].forEach(e => {
 
@@ -93,6 +94,7 @@ function theAir(arr, node) {
 
 elForm.addEventListener("submit", function (evt) {
   evt.preventDefault();
+  elList.innerHTML = ""
   elInputVal = elInput.value.trim()
   getTheAir()
   elInput.value = ""
