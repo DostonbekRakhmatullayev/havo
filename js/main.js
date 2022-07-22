@@ -17,11 +17,8 @@ function getDate(format,) {
   return `Kun ${String(date.getDate() + 1).padStart(2, "0")}`;
 }
 
-console.log(getDate(1658402147));
-
 function theAir(arr, node) {
   [arr].forEach(e => {
-
     let newItim = document.createElement("li")
     let newTetle = document.createElement("h3")
     let newDavlat = document.createElement("div")
