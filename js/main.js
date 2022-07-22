@@ -15,7 +15,7 @@ function getHours(format) {
   return `Qiyosh botishi${String(date.getHours()).padStart(
     2,
     "0"
-  )}:${date.getMinutes()}}`;
+  )}:${date.getMinutes()}`;
 }
 
 function getDate(format) {
@@ -31,6 +31,7 @@ function getDate(format) {
 
 function theAir(arr, node) {
   [arr].forEach((e) => {
+    console.log(e);
     let newItim = document.createElement("li");
     let newTetle = document.createElement("h3");
     let newDavlat = document.createElement("div");
@@ -52,7 +53,7 @@ function theAir(arr, node) {
     newText.textContent = e.weather[0].description;
 
     newHours1.textContent = getHours1(e.sys.sunrise);
-    newHours.textContent = getHours1(e.sys.sunset);
+    newHours.textContent = getHours(e.sys.sunset);
     newTimeBox.setAttribute("class", "time__box");
     newTime.setAttribute("class", "time");
     newDavlat.setAttribute("class", "davlat");
@@ -103,7 +104,7 @@ function theAir(arr, node) {
 
 elForm.addEventListener("submit", function (evt) {
   evt.preventDefault()
-  
+  elList.innerHTML = ""
   elInputVal = elInput.value.trim();
   getTheAir();
   elInput.value = "";
